@@ -22,7 +22,7 @@ This repository contains my work on the Landing Page project from The Odin Proje
 To run this project locally, clone the repo and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/yourusername/landing-page.git
+git clone https://github.com/stacyaceit/landing-page.git
 cd landing-page
 open index.html
 ```

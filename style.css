@@ -36,7 +36,6 @@ a{
 .a{    
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     gap: 8%;
     padding: 5% 10%;
     align-items: stretch;
@@ -107,6 +106,46 @@ button{
 
 }
 
+.b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.b .top{
+    font-size: 36px;
+    font-weight: extra bold;
+    color: #1F2937;
+}
+
+.b .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2%;
+    margin: 3%;
+}   
+.w{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+}
+.w .item{
+    flex: 1 1 auto;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
     
 
 
